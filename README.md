@@ -144,7 +144,6 @@ An education platform delivering interactive and structured learning experiences
 
 **Singgih Hakim**
 
-- Email: [singgihhakim445@gmail.com](mailto:singgihhakim445@gmail.com)
 - GitHub: [@SinggihHakim](https://github.com/SinggihHakim)
 
 ---
