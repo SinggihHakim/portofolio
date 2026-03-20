@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Legacy Theme Colors */
+  --color-space-black: #050505; 
+  --color-space-dark: #0B0C15;  
+  --color-space-light: #1E293B; 
+  --color-starlight: #F8FAFC;
+  --color-nebula-purple: #6366F1;
+  --color-nebula-blue: #3B82F6;
+
+  /* Luxury Theme Colors */
+  --color-base-dark: #0a0a09;
+  --color-base-light: #f5f2e6; /* Eye-catching Ivory / Cream Paper */
+  
+  --color-text-dark: #fbfbfb;
+  --color-text-light: #181914; /* Deep, rich ink black */
+
+  --color-accent-dark: #d4af37; /* Luxury gold */
+  --color-accent-light: #9e3612; /* Deep rust / Editorial orange for vibrant light mode */
+
+  --font-serif: 'DM Serif Display', serif;
+  --font-sans: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-base-dark text-text-dark font-sans antialiased transition-colors duration-700;
+  overflow-x: hidden;
+}
+
+body.light-mode {
+  @apply bg-base-light text-text-light;
+}
+
+/* Glassmorphism 2.0 */
+.glass {
+  @apply backdrop-blur-2xl bg-white/5 border border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.3)];
+}
+
+body.light-mode .glass {
+  @apply bg-black/5 border-black/10 shadow-[0_8px_32px_rgba(0,0,0,0.05)];
+}
+
+/* Scrollbar Custom */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-white/20 rounded-full;
+}
+body.light-mode ::-webkit-scrollbar-thumb {
+  @apply bg-black/20;
+}
