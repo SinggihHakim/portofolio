@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import MagneticButton from "./MagneticButton";
+import studioPng from "../assets/studio.png";
 
 const textContainer = {
   hidden: { opacity: 0 },
@@ -142,7 +143,7 @@ const Hero = () => {
             
             <div className="absolute inset-0 bg-current mix-blend-overlay opacity-5 lg:opacity-20 z-10 transition-opacity duration-700 lg:group-hover:opacity-0 pointer-events-none" />
             <img
-              src="./src/assets/studio.png"
+              src={studioPng}
               alt="Portrait of Singgih"
               className="w-full h-full object-cover filter grayscale-0 lg:grayscale-[50%] contrast-110 transition-all duration-[2s] group-hover:scale-105 lg:group-hover:grayscale-0"
               onError={(e) => {
