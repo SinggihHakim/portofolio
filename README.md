@@ -13,7 +13,7 @@
 
 ---
 
-## ✨ Overview
+## Overview
 
 A high-end personal portfolio website with a **museum/editorial aesthetic** — built to make a strong first impression. Designed and developed with meticulous attention to typography, motion, and visual storytelling.
 
@@ -21,7 +21,7 @@ The site presents my journey as a developer through five carefully crafted secti
 
 ---
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
 > *"A portfolio should feel like an exhibition, not a resume."*
 
@@ -33,23 +33,23 @@ The site presents my journey as a developer through five carefully crafted secti
 
 ---
 
-## 🚀 Features
+## Features
 
 | Feature | Description |
 |---|---|
-| 🖱️ **Custom Cursor** | Fluid custom cursor that reacts to interactive elements |
-| ⚡ **Preloader** | Cinematic loading screen before content is revealed |
-| 🧲 **Magnetic Buttons** | CTAs that attract to cursor proximity for a tactile feel |
-| ✍️ **Staggered Text Reveal** | Character-by-character hero heading animation |
-| 🌟 **Particle Background** | Ambient floating particles in dark mode |
-| 📜 **Career Timeline** | Year-by-year visual journey of professional growth |
-| 🗂️ **Projects Gallery** | Curated cards with live links and GitHub references |
-| 📱 **Fully Responsive** | Optimized for all screen sizes — mobile to ultrawide |
-| 🌙 **Dark / Light Mode** | Full theme toggle with smooth color transitions |
+| Custom Cursor | Fluid custom cursor that reacts to interactive elements |
+| Preloader | Cinematic loading screen before content is revealed |
+| Magnetic Buttons | CTAs that attract to cursor proximity for a tactile feel |
+| Staggered Text Reveal | Character-by-character hero heading animation |
+| Particle Background | Ambient floating particles in dark mode |
+| Career Timeline | Year-by-year visual journey of professional growth |
+| Projects Gallery | Curated cards with live links and GitHub references |
+| Fully Responsive | Optimized for all screen sizes — mobile to ultrawide |
+| Dark / Light Mode | Full theme toggle with smooth color transitions |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend**
 - [React 19](https://react.dev/) — UI library
@@ -64,7 +64,7 @@ The site presents my journey as a developer through five carefully crafted secti
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 portfolio/
@@ -97,7 +97,7 @@ portfolio/
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 **Prerequisites:** Node.js 18+ and npm
 
@@ -124,28 +124,28 @@ npm run build
 
 ---
 
-## 📌 Featured Projects
+## Featured Projects
 
-### 🏫 School Management System
+### School Management System
 A modern school management platform built with the **SERN stack** (Supabase, Express.js, React, Node.js). Centralizes student, teacher, scheduling, attendance, and financial data in a real-time system.
 → [GitHub Repo](https://github.com/SinggihHakim/sdn_SERN)
 
-### 🤖 MoodKamu AI
+### MoodKamu AI
 An AI-powered web app for detecting user emotions and generating intelligent responses in real-time. Built for simplicity, responsiveness, and interactive UX.
 → [GitHub Repo](https://github.com/SinggihHakim/MoodKamu-AI)
 
-### 🎓 EduVate
+### EduVate
 An education platform delivering interactive and structured learning experiences through a scalable web system. Focused on usability, accessibility, and content management.
 → [GitHub Repo](https://github.com/SinggihHakim/EduVate)
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Singgih Hakim**
 
-- 📧 Email: [singgihhakim445@gmail.com](mailto:singgihhakim445@gmail.com)
-- 💼 GitHub: [@SinggihHakim](https://github.com/SinggihHakim)
+- Email: [singgihhakim445@gmail.com](mailto:singgihhakim445@gmail.com)
+- GitHub: [@SinggihHakim](https://github.com/SinggihHakim)
 
 ---
 
