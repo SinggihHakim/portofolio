@@ -33,6 +33,8 @@ const ProjectCard = ({ project, index, scrollYProgress }) => {
           <motion.img
             src={project.image}
             alt={project.title}
+            loading="lazy"
+            decoding="async"
             className="w-full h-full object-cover origin-center opacity-80 filter grayscale-0 lg:grayscale-[50%] contrast-110 lg:group-hover:scale-105 lg:group-hover:grayscale-0 transition-all duration-[1.5s] ease-[0.16,1,0.3,1]"
           />
 

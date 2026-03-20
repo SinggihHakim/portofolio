@@ -26,6 +26,8 @@ const About = () => {
             <img 
               src={studioPng} 
               alt="Portrait of Singgih"
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-cover filter grayscale-0 lg:grayscale contrast-110 transition-transform duration-[2s] scale-x-[-1] lg:group-hover:scale-x-[-1.05] lg:group-hover:scale-y-105 lg:group-hover:grayscale-0"
               onError={(e) => {
                 e.target.style.display = 'none';
