@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { techStack } from "../data/index";
+import studioPng from "../assets/studio.png";
 
 const About = () => {
   return (
@@ -23,7 +24,7 @@ const About = () => {
           <div className="relative w-full max-w-[320px] lg:max-w-none lg:w-[35vw] aspect-[3/4] glass rounded-tr-[80px] rounded-bl-[80px] lg:rounded-tr-[100px] lg:rounded-bl-[100px] overflow-hidden group">
             <div className="absolute inset-0 bg-accent-light dark:bg-accent-dark mix-blend-overlay z-10 opacity-10 lg:opacity-30 transition-opacity duration-1000 lg:group-hover:opacity-0" />
             <img 
-              src="./src/assets/studio.png" 
+              src={studioPng} 
               alt="Portrait of Singgih"
               className="w-full h-full object-cover filter grayscale-0 lg:grayscale contrast-110 transition-transform duration-[2s] scale-x-[-1] lg:group-hover:scale-x-[-1.05] lg:group-hover:scale-y-105 lg:group-hover:grayscale-0"
               onError={(e) => {
