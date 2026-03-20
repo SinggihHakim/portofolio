@@ -4,7 +4,7 @@ import { SiJavascript, SiTypescript, SiPhp, SiMongodb, SiTailwindcss, SiNextdotj
 
 import sekolahImg from "../assets/sekolah.png";
 import eduvateImg from "../assets/eduvate.png";
-import moodkamuImg from "../assets/quiz.png";
+import moodkamuImg from "../assets/moodkamu.png";
 
 export const navLinks = [
   { id: '01', name: 'HOME', href: '#home' },
