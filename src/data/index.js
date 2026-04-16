@@ -1,6 +1,10 @@
 import { FaGlobe, FaLaptopCode, FaMobile } from "react-icons/fa";
 import { FaReact, FaNodeJs, FaFigma, FaGitAlt } from "react-icons/fa";
-import { SiJavascript, SiTypescript, SiPhp, SiMongodb, SiTailwindcss, SiNextdotjs, SiSupabase } from "react-icons/si";
+import { 
+  SiJavascript, SiTypescript, SiPhp, SiMongodb, SiTailwindcss, 
+  SiNextdotjs, SiSupabase, SiBootstrap, SiPostgresql, SiMysql,
+  SiExpress, SiLaravel, SiPostman, SiPrisma, SiVercel, SiDocker
+} from "react-icons/si";
 
 import sekolahImg from "../assets/sekolah.png";
 import eduvateImg from "../assets/eduvate.png";
@@ -20,12 +24,21 @@ export const techStack = [
   { icon: FaReact, name: "React" },
   { icon: SiNextdotjs, name: "Next.js" },
   { icon: SiTailwindcss, name: "Tailwind" },
+  { icon: SiBootstrap, name: "Bootstrap" },
   { icon: FaNodeJs, name: "Node.js" },
   { icon: SiPhp, name: "PHP" },
   { icon: SiMongodb, name: "MongoDB" },
+  { icon: SiPostgresql, name: "PostgreSQL" },
+  { icon: SiMysql, name: "MySQL" },
   { icon: SiSupabase, name: "Supabase" },
+  { icon: SiExpress, name: "Express.js" },
+  { icon: SiLaravel, name: "Laravel" },
+  { icon: SiPrisma, name: "Prisma" },
   { icon: FaGitAlt, name: "Git" },
   { icon: FaFigma, name: "Figma" },
+  { icon: SiPostman, name: "Postman" },
+  { icon: SiDocker, name: "Docker" },
+  { icon: SiVercel, name: "Vercel" },
 ];
 
 export const timelineData = [
