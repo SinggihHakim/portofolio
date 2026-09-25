@@ -1,18 +1,18 @@
 import { motion } from "framer-motion";
 import { techStack } from "../data/index";
-import studioPng from "../assets/studio.png";
+import studioPng from "../assets/studio.webp";
 
 const About = () => {
   return (
     <section id="about" className="py-24 lg:py-32 px-6 lg:pl-32 lg:pr-16 relative overflow-hidden flex flex-col items-center">
-      
+
       {/* Decorative large typography background */}
       <h2 className="absolute top-10 left-[-5vw] text-[18vw] lg:text-[15vw] font-serif opacity-5 whitespace-nowrap pointer-events-none uppercase tracking-tighter mix-blend-overlay">
         Biography
       </h2>
 
       <div className="max-w-7xl mx-auto w-full relative z-10 flex flex-col lg:flex-row gap-16 lg:gap-20 items-center lg:items-start mt-12 lg:mt-24">
-        
+
         {/* Left image/organic shape container */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
@@ -23,8 +23,8 @@ const About = () => {
         >
           <div className="relative w-full max-w-[320px] lg:max-w-none lg:w-[35vw] aspect-[3/4] glass rounded-tr-[80px] rounded-bl-[80px] lg:rounded-tr-[100px] lg:rounded-bl-[100px] overflow-hidden group">
             <div className="absolute inset-0 bg-accent-light dark:bg-accent-dark mix-blend-overlay z-10 opacity-10 lg:opacity-30 transition-opacity duration-1000 lg:group-hover:opacity-0" />
-            <img 
-              src={studioPng} 
+            <img
+              src={studioPng}
               alt="Portrait of Singgih"
               loading="lazy"
               decoding="async"
@@ -39,15 +39,15 @@ const About = () => {
               </span>
             </div>
           </div>
-          
+
           {/* Subtle floating element */}
-          <motion.div 
+          <motion.div
             animate={{ y: [-10, 10, -10] }}
             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
             className="absolute -bottom-6 right-4 lg:-bottom-10 lg:-right-10 w-24 h-24 lg:w-32 lg:h-32 rounded-full border border-current opacity-20 flex items-center justify-center pointer-events-none"
           >
             <span className="text-[8px] lg:text-[10px] uppercase tracking-widest transform rotate-45 text-center leading-tight">
-              Creative<br/>Developer
+              Creative<br />Developer
             </span>
           </motion.div>
         </motion.div>
@@ -79,7 +79,7 @@ const About = () => {
             className="border-t border-current opacity-80 pt-8"
           >
             <h4 className="font-mono text-[10px] lg:text-xs uppercase tracking-[0.3em] mb-6 lg:mb-8">Technical Repertoire</h4>
-            
+
             <div className="flex flex-wrap gap-3 lg:gap-4">
               {techStack.map((tech, i) => {
                 const Icon = tech.icon;

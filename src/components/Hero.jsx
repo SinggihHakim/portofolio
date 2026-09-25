@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import MagneticButton from "./MagneticButton";
-import studioPng from "../assets/studio.png";
+import studioPng from "../assets/studio.webp";
 
 const textContainer = {
   hidden: { opacity: 0 },
@@ -50,7 +50,7 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16">
-        
+
         {/* Left Column: Typography Showcase */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -78,12 +78,12 @@ const Hero = () => {
                 </motion.span>
               ))}
             </motion.span>
-            
+
             {/* Staggered Text Reveal for 2nd word */}
-            <motion.span 
-              variants={textContainer2} 
-              initial="hidden" 
-              animate="show" 
+            <motion.span
+              variants={textContainer2}
+              initial="hidden"
+              animate="show"
               className="flex justify-center flex-wrap lg:justify-start italic font-light ml-0 lg:ml-12 text-accent-light dark:text-accent-dark mix-blend-luminosity overflow-hidden"
             >
               {"Hakim.".split("").map((char, i) => (
@@ -103,7 +103,7 @@ const Hero = () => {
             <p className="font-sans text-sm md:text-base leading-relaxed opacity-80 text-center lg:text-left">
               Crafting immersive digital experiences through fluid interfaces, organic layouts, and motion-driven narratives.
             </p>
-            
+
             <a href="#projects" className="mt-8 lg:mt-10">
               {/* Magnetic Wrapping Applied */}
               <MagneticButton>
@@ -132,15 +132,15 @@ const Hero = () => {
           className="w-full lg:w-2/5 relative flex justify-center lg:justify-end items-center lg:items-end mt-12 lg:mt-0 h-[40vh] sm:h-[50vh] lg:h-[70vh]"
         >
           <div className="w-[70%] sm:w-[60%] lg:w-full h-full glass rounded-t-full rounded-b-full lg:rounded-b-none lg:rounded-br-full relative overflow-hidden group">
-            
+
             {/* Image Masking Reveal Overlay */}
-            <motion.div 
+            <motion.div
               initial={{ y: "0%" }}
               animate={{ y: "100%" }}
               transition={{ duration: 1.5, ease: [0.77, 0, 0.175, 1], delay: 1 }}
               className="absolute inset-0 bg-base-dark dark:bg-base-light mix-blend-difference z-20 pointer-events-none"
             />
-            
+
             <div className="absolute inset-0 bg-current mix-blend-overlay opacity-5 lg:opacity-20 z-10 transition-opacity duration-700 lg:group-hover:opacity-0 pointer-events-none" />
             <img
               src={studioPng}
@@ -151,7 +151,7 @@ const Hero = () => {
               }}
             />
           </div>
-          
+
           <div className="absolute bottom-[10%] lg:bottom-[20%] left-4 lg:-left-16 z-20 text-right mix-blend-difference text-white">
             <p className="text-[10px] tracking-widest uppercase font-mono transform lg:-rotate-90 origin-bottom-left whitespace-nowrap opacity-60">
               Vol. 01 — 2026 Collection

@@ -1,14 +1,15 @@
 import { FaGlobe, FaLaptopCode, FaMobile } from "react-icons/fa";
 import { FaReact, FaNodeJs, FaFigma, FaGitAlt } from "react-icons/fa";
-import { 
-  SiJavascript, SiTypescript, SiPhp, SiMongodb, SiTailwindcss, 
+import {
+  SiJavascript, SiTypescript, SiPhp, SiMongodb, SiTailwindcss,
   SiNextdotjs, SiSupabase, SiBootstrap, SiPostgresql, SiMysql,
   SiExpress, SiLaravel, SiPostman, SiPrisma, SiVercel, SiDocker
 } from "react-icons/si";
 
-import sekolahImg from "../assets/sekolah.png";
-import eduvateImg from "../assets/eduvate.png";
-import moodkamuImg from "../assets/moodkamu.png";
+import sekolahImg from "../assets/sekolah.webp";
+import eduvateImg from "../assets/eduvate.webp";
+import moodkamuImg from "../assets/moodkamu.webp";
+import elearningImg from "../assets/elearning.webp";
 
 export const navLinks = [
   { id: '01', name: 'HOME', href: '#home' },
@@ -42,29 +43,29 @@ export const techStack = [
 ];
 
 export const timelineData = [
-  { 
-    year: "2026", 
-    role: "Full Stack Developer", 
-    org: "Freelance & Personal Projects (ZuzuAcademy)", 
-    desc: "Developed full-stack web applications using Next.js and PHP. Integrated APIs and AI tools to automate system features. Focused on performance, scalability, and system efficiency." 
+  {
+    year: "2026",
+    role: "Full Stack Developer",
+    org: "Freelance & Personal Projects (ZuzuAcademy)",
+    desc: "Developed full-stack web applications using Next.js and PHP. Integrated APIs and AI tools to automate system features. Focused on performance, scalability, and system efficiency."
   },
-  { 
-    year: "2025", 
-    role: "Full Stack Developer", 
-    org: "Freelance, Academic & Client Projects", 
-    desc: "Built web-based systems including CRUD, admin dashboards, and data management. Managed both frontend and backend architecture (HTML, JS, PHP, MySQL) including authentication, reporting, and transaction processing." 
+  {
+    year: "2025",
+    role: "Full Stack Developer",
+    org: "Freelance, Academic & Client Projects",
+    desc: "Built web-based systems including CRUD, admin dashboards, and data management. Managed both frontend and backend architecture (HTML, JS, PHP, MySQL) including authentication, reporting, and transaction processing."
   },
-  { 
-    year: "2024", 
-    role: "Frontend Developer", 
-    org: "Project-based & Campus Implementations", 
-    desc: "Designed and developed interactive, responsive web interfaces utilizing HTML, CSS, and strong JavaScript fundamentals. Deeply focused on creating fluid user interfaces (UI) and optimizing user experience (UX)." 
+  {
+    year: "2024",
+    role: "Frontend Developer",
+    org: "Project-based & Campus Implementations",
+    desc: "Designed and developed interactive, responsive web interfaces utilizing HTML, CSS, and strong JavaScript fundamentals. Deeply focused on creating fluid user interfaces (UI) and optimizing user experience (UX)."
   },
-  { 
-    year: "2023", 
-    role: "Creative Developer", 
-    org: "Learning Phase & Experimental", 
-    desc: "Mastered the fundamentals of programming and modern web development. Experimented extensively with animations, core logic, and basic UI design by building small-scale foundational projects." 
+  {
+    year: "2023",
+    role: "Creative Developer",
+    org: "Learning Phase & Experimental",
+    desc: "Mastered the fundamentals of programming and modern web development. Experimented extensively with animations, core logic, and basic UI design by building small-scale foundational projects."
   },
 ];
 
@@ -95,5 +96,14 @@ export const projects = [
     icon: FaLaptopCode,
     year: "2025",
     github: "https://github.com/SinggihHakim/EduVate.git"
+  },
+  {
+    title: "E-Learning Platform",
+    category: "Web Application",
+    desc: "A comprehensive e-learning platform built to provide an engaging and structured online learning experience. Features interactive course management, progress tracking, and a clean, user-friendly interface.",
+    image: elearningImg,
+    icon: FaGlobe,
+    year: "2025",
+    github: "https://github.com/SinggihHakim/e-learning.git"
   }
 ];
