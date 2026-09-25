@@ -43,11 +43,13 @@ body.light-mode {
 
 /* Glassmorphism 2.0 */
 .glass {
-  @apply backdrop-blur-2xl bg-white/5 border border-white/10 shadow-[0_8px_32px_rgba(0, 0, 0, 0.3)];
+  @apply backdrop-blur-2xl bg-white/5 border border-white/10;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 body.light-mode .glass {
-  @apply bg-black/5 border-black/10 shadow-[0_8px_32px_rgba(0, 0, 0, 0.05)];
+  @apply bg-black/5 border-black/10;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
 }
 
 /* Scrollbar Custom */
@@ -65,4 +67,10 @@ body.light-mode .glass {
 
 body.light-mode ::-webkit-scrollbar-thumb {
   @apply bg-black/20;
+}
+
+/* Global CSS Keyframe Animations (GPU-composited, no JS overhead) */
+@keyframes float-y {
+  0%, 100% { transform: translateY(-10px); }
+  50% { transform: translateY(10px); }
 }
